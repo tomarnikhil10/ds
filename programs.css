@@ -1,0 +1,59 @@
+.main {
+    height: 82vh;
+}
+
+.left {
+    position: sticky;
+    top: 60px; /* Corrected missing "px" */
+    width: 25%;
+    height: 100%;
+    background-color: #1a1a2e; /* Dark blue background */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.left .d-flex {
+    margin-top: 30px;
+}
+
+.left a {
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.right {
+    width: 80%;
+    height: 100%;
+    background-color: #f0f7ff; /* Sky blue background */
+}
+
+.left .sub-menu {
+    padding: 10px 25px;
+    font-size: 0.9em;
+    display: none;
+}
+
+.left .sub-menu a {
+    border-top: 1px solid #ff5733; /* Salmon color */
+    transition: 0.5s;
+}
+
+.left .sub-menu a:hover {
+    color: red;
+}
+
+.left .sub-menu:target {
+    display: block;
+}
+
+.footer {
+    background-color: #1a1a2e; /* Dark blue background */
+    height: 8vh;
+    color: white;
+}

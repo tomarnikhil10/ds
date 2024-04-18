@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    display: inline-block;
+    cursor: pointer;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    height: 10vh;
+    background-color: rgb(11, 75, 132);
+    padding: 0px 30px;
+    box-shadow: 12px 2px 20px 2px rgb(4, 51, 62);
+}
+nav img{
+    cursor: pointer;
+    width: 10%;
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 20px;
+    padding: 10px 10px;
+    transition: 0.2s;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.midsec{
+    height: 300px;
+    background-color: rgba(3, 35, 62, 0.88);
+    color: white;
+    justify-content: space-around;
+    padding: 40px;
+    overflow: hidden;
+}
+.midsec .left{
+    width: 50%;
+    text-align: justify;
+}
+.midsec .left h1{
+    margin-bottom: 20px;
+    color: palegoldenrod;
+}
+.midsec .left p{
+    font-size: 1.2em;
+}
+.midsec img{
+    width: 20%;
+    transition: all 0.3s;
+}
+.midsec img:hover{
+    filter: contrast(10);
+    transform: scale(1.02);
+}
+.card-container{
+    background: linear-gradient(#034553,#0c637b);
+    margin: 10vh 10vh;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.card{
+    width:20%;
+    background-color: rgb(15, 77, 127);
+    border-radius: 12px;
+    text-align: justify;
+    transition: all 0.2s;
+    box-shadow: 0px 0px 20px -1px gray;
+}
+.card:hover{
+    transform: scale(0.97);
+}
+.card img{
+    width: 100%;
+    height: 100px;
+    border-radius: 12px 12px 0px 0px;
+}
+.card h2{
+    font-size: 1.6em;
+    color: palegoldenrod;
+}
+.card h2, .card h4, .card a{
+    margin: 10px 15px;
+}
+.card h4{
+    color: white;
+    font-size: 1em;
+    padding: 0px 0px 20px 0px;
+}
+.card a{
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    text-decoration: none;
+}
+.footer{
+    background-color: #333;
+    height: 8vh;
+    color: white;
+}
+.footer p{
+    padding-top: 3.5vh;
+    text-align: center;
+}
